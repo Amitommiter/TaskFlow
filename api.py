@@ -13,7 +13,7 @@ user_data = {}
 @app.route('/')
 def index():
     return jsonify({
-        'service': 'CloudTaskAPI',
+        'service': 'TaskFlow',
         'version': '1.0.0',
         'status': 'running',
         'timestamp': datetime.now().isoformat()
