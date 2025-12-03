@@ -1,0 +1,8 @@
+specVersion: 'v1alpha1'
+metadata:
+  name: hello-world
+spec:
+  runtime: python39
+  entryPoint: hello_world
+  sourceArchiveUrl: 'gs://YOUR_BUCKET/function.zip'
+
